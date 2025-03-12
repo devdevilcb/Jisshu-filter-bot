@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '9744c99858433c55c279cce6827d36a4')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5387783284 1947565279').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5007198306 1947565279').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/DwayneJohnsonl") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001919010755'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+-HUDCrSiX1ozZjNl')
@@ -107,7 +107,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://curved-corabel-devdoc-61e11e30.koyeb.app/")
+URL = environ.get("FQDN", "https://reduced-myrilla-darkbing-6a694697.koyeb.app/")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
